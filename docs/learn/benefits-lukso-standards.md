@@ -5,22 +5,22 @@ description: 'Overview of the benefits of using LUKSO Standard Proposals (LSPs)'
 
 # Benefits of the LUKSO Standards
 
-Discover the features and benefits of the LUKSO Standards (LSPs) compared to over standards and existing solutions.
+Discover the features and benefits of the LUKSO Standards (LSPs) compared to other standards and existing solutions.
 
 ## Universal Profiles vs. Smart Wallets
 
-Universal Profiles (known as 🆙) are smart accounts that come with many benefits because of their features.
+Universal Profiles (known as 🆙) are smart accounts that provide industry leading online identity management.
 
-The [🆙 Browser Extension](/install-up-browser-extension) offers a better user experience to interact with dApps compared to traditional web3 wallets.
+The [🆙 Browser Extension](/install-up-browser-extension) offers a better user experience to interact with decentralized applications (dApps) compared to traditional web3 wallets.
 
-|                                | Gnosis SAFE                | Base Smart Contract Account | EIP 6900 Modular Smart Contract account | Universal Profiles                                                                                  |
+|                                | Gnosis SAFE                | Base Smart Contract Account | EIP 6900 Modular Smart Contract Account | Universal Profiles                                                                                  |
 | ------------------------------ | -------------------------- | --------------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | Profile like information       | ❌                         | ❌                          | ❌                                      | ✅ Through [LSP3](../standards/metadata/lsp3-profile-metadata)                                      |
 | Generic Information Storage    | ❌                         | ❌                          | ❌                                      | ✅ Through [ERC725Y](../standards/accounts/lsp0-erc725account.md#erc725y---generic-key-value-store) |
 | Notifications and Reactability | ❌                         | ❌                          | ❌                                      | ✅ Through [LSP1](../standards/accounts/lsp1-universal-receiver.md)                                 |
 | Permission System              | ❌                         | ❌                          | ❌                                      | ✅ Through [LSP6](../standards/access-control/lsp6-key-manager.md)                                  |
 | Multisig                       | ✅                         | ❌                          | ❌                                      | 🔶 Can be controlled by a multisig                                                                  |
-| Multi purpose                  | 🔶 (With future extension) | 🔶 (With future extension)  | 🔶 (With future extension)              | ✅ Can be a DAO, Organisation, Brand, AI, Robot, etc through and permissions [LSP6]                 |
+| Multi purpose                  | 🔶 (With future extension) | 🔶 (With future extension)  | 🔶 (With future extension)              | ✅ Can be a DAO, Organisation Brand, AI, Robot, etc through and permissions [LSP6]                 |
 | Gasless Experience             | ✅                         | ✅                          | ✅                                      | ✅ via the [Transaction Relayer](../standards/accounts/lsp15-transaction-relayer-api.md)            |
 | Extensible                     | ✅                         | ✅                          | ✅                                      | ✅ Through [LSP17](../standards/accounts/lsp17-contract-extension.md)                               |
 | Upgradeable Security           | ✅                         | ✅                          | ✅                                      | ✅ Through [LSP14](../standards/access-control/lsp14-ownable-2-step.md)                             |
@@ -28,7 +28,7 @@ The [🆙 Browser Extension](/install-up-browser-extension) offers a better use
 
 | Feature                                                                   | Benefits                                                                                                                                                                                                                                                                                                                           |
 | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**🗄️ Metadata in one place**](#️-metadata-in-one-place)                  | Removes the requirement to refill the same information again and again on each new app you register to!<br/>Your information is stored and fetched from the same place (your 🆙 storage) and displayed the same across all the dApps ecosystem!                                                                                    |
+| [**🗄️ Metadata in one place**](#️-metadata-in-one-place)                  | Removes the requirement to refill the same information repeatedly on each new app you register to!<br/>Your information is stored and fetched from the same place (your 🆙 storage) and displayed the same across all the dApps ecosystem!                                                                                    |
 | [**🎨 Customizable metadata**](#-customizable-metadata)                   | Make your Universal Profile stand out from others! Give it a profile and cover image, and add as many amount of information with its unlimited storage.                                                                                                                                                                            |
 | [**⛽️ Gas-Less transactions**](#️-gas-less-transactions)                 | No more need to buy and hold native tokens to pay for the gas. Use the transaction relayer from [_universalprofile.cloud_](https://my.universalprofile.cloud/dashboard) plugged to the Universal Profile from the start to get started.                                                                                            |
 | [**🔑 Multi-Control with permissions**](#-multi-control-with-permissions) | Universal Profiles can be controlled by multiple addresses (EOAs and contracts) with various permission levels, held across different devices or representing dApps. Each can have specific access rights (token transfers, playlist management, account recovery, etc).                                                           |
