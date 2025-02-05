@@ -6,7 +6,7 @@ const accordionData = [
       {
         question: 'Why are there new standards on LUKSO?',
         answer:
-          'LUKSO introduced new blockchain standards to address issues with existing ERCs, such as token/NFT approval security, limited metadata, lack of interoperability (ERC677, ERC777 and ERC1155 use each different callback hook functions to notify on token transfer), and requiring users to acquire native token upfront to pay for transaction fess (gas). LSP standards include features like universalReceiver (LSP1) for notifications, flexible metadata (ERC725Y), secure permissions management (LSP6 Key Manager), and gasless transactions (LSP25 Execute Relay Call) for easier user onboarding.',
+          'LUKSO introduced new blockchain standards to address issues with existing Ethereum Requests for Comments (ERCs), such as token/NFT approval security, limited metadata, lack of interoperability (ERC677, ERC777 and ERC1155 use each different callback hook functions to notify on token transfer), and requiring users to acquire native token upfront to pay for transaction fess (gas). LSP standards include features like universalReceiver (LSP1) for notifications, flexible metadata (ERC725Y), secure permissions management (LSP6 Key Manager), and gasless transactions (LSP25 Execute Relay Call) for easier user onboarding.',
         link: '/learn/overview#why-new-standards',
         linkLabel: 'Learn more',
       },
