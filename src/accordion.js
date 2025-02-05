@@ -1,3 +1,5 @@
+import { wrapWithTooltip, commonTooltips } from '../../components/Tooltip';
+
 const accordionData = [
   {
     summary: 'General',
