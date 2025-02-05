@@ -61,7 +61,7 @@ function Index() {
         <TitleWithSeparator title="Developer Quickstart" />
         <div className={styles.subheader}>
           <p>
-            Quickest guides to get started building on LUKSO with the LSPs and
+            Quickest guides to get started building on LUKSO with the LUKSO Standards Proposals (LSPs) and
             Universal Profiles.
           </p>
         </div>
@@ -120,7 +120,7 @@ function Index() {
           <div className={styles.headerHero}>
             <h1>What is LUKSO?</h1>
             <p>
-              An EVM-based Blockchain built for social, culture and creators.
+              An Ethereum Virtual Machine (EVM) based Blockchain built for social, culture and creators.
             </p>
             <p>Providing the foundation to unify our digital lives.</p>
             <div style={{ marginTop: '2rem' }}>
@@ -136,10 +136,10 @@ function Index() {
           <div className={styles.headerHero}>
             <h1>What are the LUKSO LSP Standards?</h1>
             <p>
-              A holistic set of new blockchain standards that are EVM
-              compatible.
+              The LUKSO Standard Proposals (LSPs) are a holistic set of new user-centric and powerful EVM-compatible blockchain standards, 
+                  providing compact simplicity and Web2-like user experiences, while solving the dilemma of countless standard extensions on other protocols.
             </p>
-            <p>To create protocols and applications social and user-centric.</p>
+            <p>These standards are made for cost-efficient decentralized user applications and protocols.</p>
             <div style={{ marginTop: '2rem' }}>
               <CallToActionButton
                 icon="material-symbols:brick"
