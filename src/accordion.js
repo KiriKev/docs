@@ -1,4 +1,4 @@
-import { wrapWithTooltip, commonTooltips } from '../../components/Tooltip';
+import { processTextWithTooltips } from '../../utils/textProcessor';
 
 const accordionData = [
   {
