@@ -1,4 +1,4 @@
-import { processTextWithTooltips } from '../../utils/textProcessor';
+import { processTextWithTooltips } from 'textProcessor';
 
 const accordionData = [
   {
